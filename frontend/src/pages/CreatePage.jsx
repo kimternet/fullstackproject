@@ -22,7 +22,7 @@ const CreatePage = () => {
     <Container maxW={"container.sm"}>
       <VStack spacing = {8}>
         <Heading as={"h1"} size={"2xl"} textAlign={"center"} mb={8}>
-          Create New product
+          새제품 등록
         </Heading>
 
         <Box 
@@ -31,25 +31,25 @@ const CreatePage = () => {
         >
           <VStack spacing={4}>
             <Input
-              placeholder="Product Name"
+              placeholder="제품명"
               name='name'
               value={newProduct.name}
               onChange={(e) => setNewProduct({...newProduct, name: e.target.value})}
             />
             <Input
-              placeholder="Product Price"
+              placeholder="가격"
               name='price'
               value={newProduct.price}
               onChange={(e) => setNewProduct({...newProduct, price: e.target.value})}
             />
             <Input
-              placeholder="Image URL"
+              placeholder="이미지 주소"
               name='image'
               value={newProduct.image}
               onChange={(e) => setNewProduct({...newProduct, image: e.target.value})}
             />
             <Button colorScheme='blue' onClick={handleAddProduct} w='full'>
-              Add Product
+              제품 등록하기
             </Button>
           </VStack>
         </Box>
