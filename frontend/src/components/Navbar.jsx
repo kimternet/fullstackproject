@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Box, Button, Flex, HStack, Text, useColorMode } from '@chakra-ui/react';
+import { Container, Box, Button, Flex, HStack, Text, useColorMode, Link as ChakraLink } from '@chakra-ui/react';
 import { Link } from 'react-router-dom';
 import { PlusSquareIcon } from '@chakra-ui/icons';
 import { MoonIcon, SunIcon } from '@chakra-ui/icons';
@@ -30,12 +30,33 @@ const Navbar = () => {
                     bgClip={"text"}
                 >
                     <Link to={"/"}> FullStack Project 🚀🛒</Link>
+                    <Text 
+                        as="span" 
+                        fontSize={{ base: "16", sm: "18" }} 
+                        fontWeight="medium" 
+                        ml={3}
+                        display="inline-block"
+                        border="1px solid"
+                        borderColor={useColorModeValue("gray.300", "gray.600")}
+                        px={2}
+                        py={1}
+                        borderRadius="md"
+                    >
+                        <ChakraLink 
+                            href="https://github.com/kimternet/fullstackproject"
+                            isExternal
+                            textDecoration="underline"
+                            _hover={{ color: "blue.500" }}
+                         >
+                            📂 GitHub 소스코드
+                         </ChakraLink>
+                    </Text>
                 </Text>
 
                 <HStack spacing={2} alignItems={"center"}>
                     <Link to={"/create"}>
                         <Button>
-                            <PlusSquareIcon fontsize={20} />
+                            <PlusSquareIcon fontSize={20} />
                         </Button>
                     </Link>
                     <Button onClick={toggleColorMode}>
