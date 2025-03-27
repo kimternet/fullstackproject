@@ -31,7 +31,7 @@ const ProductCard = ({product}) => {
         } else {
             toast({
                 title: 'Success',
-                description: message,
+                description: '삭제 되었습니다.',
                 status: 'success',
                 duration: 3000,
                 isClosable: true,
