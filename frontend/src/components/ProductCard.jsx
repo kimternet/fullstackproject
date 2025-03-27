@@ -27,19 +27,18 @@ const ProductCard = ({product}) => {
                 status: 'error',
                 duration: 3000,
                 isClosable: true,
-            })
+            });
         } else {
             toast({
-                title: 'Success',
-                description: '삭제 되었습니다.',
+                title: '삭제 성공',
+                description: '제품이 성공적으로 삭제되었습니다.',
                 status: 'success',
                 duration: 3000,
                 isClosable: true,
-            })
-
+            });
         }
         
-    }
+    };
     
 
     const handleUpdateProduct = async (pid, updatedProduct) => {
