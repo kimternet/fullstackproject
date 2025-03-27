@@ -1,4 +1,4 @@
-# 총알 마켓 - Full Stack 중고 거래 플랫폼
+# Full Stack Project
 
 <div align="center">
   <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React" />
