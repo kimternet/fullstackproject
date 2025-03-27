@@ -89,6 +89,6 @@ npm run start
 
 ## 📸 스크린샷
 
-(여기에 애플리케이션의 주요 화면 스크린샷을 추가하세요)
+![Image](https://github.com/user-attachments/assets/bcea7c20-0c35-4739-bb38-8f20fc20fb9c)
 
 
