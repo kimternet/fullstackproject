@@ -1,5 +1,5 @@
-<<<<<<< HEAD
-# 총알 마켓 - Full Stack 중고 거래 플랫폼
+
+# Full Stack 프로젝트
 
 <div align="center">
   <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React" />
@@ -12,7 +12,7 @@
 
 ## 📝 프로젝트 소개
 
-중고 물품을 거래할 수 있는 풀스택 웹 애플리케이션입니다. React로 프론트엔드를, Express와 MongoDB로 백엔드를 구현했으며, UI는 Chakra UI를 사용하여 반응형으로 디자인했습니다.
+물품을 거래할 수 있는 풀스택 웹 애플리케이션입니다. React로 프론트엔드를, Express와 MongoDB로 백엔드를 구현했으며, UI는 Chakra UI를 사용하여 반응형으로 디자인했습니다.
 
 🔗 **배포 링크**: [방문하기](https://fullstackproject-1uw5.onrender.com)
 
