@@ -56,14 +56,3 @@ npm install
 MONGO_URI=your_mongodb_connection_string
 PORT=5000
 ```
-
-4. 서버 실행
-```bash
-# 백엔드 서버 실행
-cd backend
-npm run dev
-
-# 프론트엔드 서버 실행
-cd ../frontend
-npm run dev
-```
