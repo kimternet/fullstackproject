@@ -1,8 +1,11 @@
-import {Box, Container, Heading, Input, VStack, useColorModeValue, Button} from '@chakra-ui/react';
+import {Box, Container, Heading, Input, VStack, useColorModeValue, Button, useToast} from '@chakra-ui/react';
 import { useState } from 'react';
 import { useProductStore } from '../store/product';
+import { useNavigate } from 'react-router-dom';
 
 const CreatePage = () => {
+  const toast = useToast();
+  const navigate = useNavigate();
 
   const [newProduct, setNewProduct] = useState({
     name: "",
@@ -13,9 +16,40 @@ const CreatePage = () => {
   const {createProduct} = useProductStore();
   
   const handleAddProduct = async() => {
-    const {success,message} = await createProduct(newProduct)
+    if (!newProduct.name || !newProduct.price) {
+      toast({
+        title: '입력 오류',
+        description: '제품명과 가격은 필수 입력 항목입니다.',
+        status: 'error',
+        duration: 3000,
+        isClosable: true,
+      });
+      return;
+    }
+
+    const {success, message} = await createProduct(newProduct);
     console.log("Success:", success);
     console.log("Message", message);
+    
+    if (success) {
+      toast({
+        title: '등록 성공',
+        description: '제품이 성공적으로 등록되었습니다.',
+        status: 'success',
+        duration: 3000,
+        isClosable: true,
+      });
+      // 홈페이지로 리디렉션
+      navigate('/');
+    } else {
+      toast({
+        title: '등록 실패',
+        description: message || '제품 등록 중 오류가 발생했습니다.',
+        status: 'error',
+        duration: 3000,
+        isClosable: true,
+      });
+    }
   };
 
   return(
