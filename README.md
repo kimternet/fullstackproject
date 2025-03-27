@@ -11,33 +11,23 @@
 
 ## 📝 프로젝트 소개
 
-물품을 거래할 수 있는 풀스택 웹 애플리케이션입니다. React로 프론트엔드를, Express와 MongoDB로 백엔드를 구현했으며, UI는 Chakra UI를 사용하여 반응형으로 디자인했습니다.
+상품을 거래할 수 있는 풀스택 웹 애플리케이션입니다. React로 프론트엔드를, Express와 MongoDB로 백엔드를 구현했으며, UI는 Chakra UI를 사용하여 반응형으로 디자인했습니다.
 
 🔗 **배포 링크**: [방문하기](https://fullstackproject-1uw5.onrender.com)
 
 ## 🚀 주요 기능
 
-- 중고 상품 등록, 조회, 삭제
+- 상품 등록, 수정, 삭제
 - 다크 모드 / 라이트 모드 지원
 - 반응형 UI (모바일, 태블릿, 데스크톱)
-- 실시간 상품 목록 조회
 
 ## 🛠️ 기술 스택
 
 - **프론트엔드**: React, React Router, Chakra UI, Zustand(상태 관리)
 - **백엔드**: Node.js, Express (ES 모듈 문법)
-- **데이터베이스**: MongoDB Atlas
+- **데이터베이스**: MongoDB
 - **배포**: Render
 
-## 🏗️ 프로젝트 구조
-
-```
-project1/
-├── frontend/          # React 프론트엔드 코드
-├── backend/           # Express 백엔드 API
-├── package.json       # 통합 프로젝트 설정
-└── .env               # 환경 변수 (gitignore에 포함됨)
-```
 
 ## 🏁 시작하기
 
