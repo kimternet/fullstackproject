@@ -9,6 +9,10 @@
   <img src="https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=white" alt="Render" />
 </div>
 
+## 📸 스크린샷
+
+![Image](https://github.com/user-attachments/assets/bcea7c20-0c35-4739-bb38-8f20fc20fb9c)
+
 ## 📝 프로젝트 소개
 
 상품을 거래할 수 있는 풀스택 웹 애플리케이션입니다. React로 프론트엔드를, Express와 MongoDB로 백엔드를 구현했으며, UI는 Chakra UI를 사용하여 반응형으로 디자인했습니다.
@@ -77,8 +81,5 @@ npm run start
 - 자동 배포 (GitHub 리포지토리 연동)
 - 환경 변수를 통한 보안 설정
 
-## 📸 스크린샷
-
-![Image](https://github.com/user-attachments/assets/bcea7c20-0c35-4739-bb38-8f20fc20fb9c)
 
 
