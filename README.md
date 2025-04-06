@@ -1,4 +1,4 @@
-# Full Stack Project
+# 웹 배포 Full Stack Project
 
 <div align="center">
   <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React" />
@@ -21,17 +21,25 @@
 
 ## 🚀 주요 기능
 
-- 상품 등록, 수정, 삭제
+- 상품 생성, 읽기, 업데이트, 삭제
 - 다크 모드 / 라이트 모드 지원
 - 반응형 UI (모바일, 태블릿, 데스크톱)
 
 ## 🛠️ 기술 스택
 
 - **프론트엔드**: React, React Router, Chakra UI, Zustand(상태 관리)
-- **백엔드**: Node.js, Express (ES 모듈 문법)
+- **백엔드**: Node.js, Express (ES 모듈 문법),RESTful API 구축
 - **데이터베이스**: MongoDB
 - **배포**: Render
 
+## 💡 학습 내용
+
+- **프론트엔드**: React, React Router, Chakra UI, Zustand(상태 관리)
+- **백엔드**: Node.js, Express (ES 모듈 문법)
+- **데이터베이스**: MongoDB
+- **배포**: Render
+- **WebSockets & Socket.io를 활용한 실시간 기능 구현**
+- **JWT를 이용한 사용자 인증 및 안전한 API 구축**
 
 ## 🏁 시작하기
 
